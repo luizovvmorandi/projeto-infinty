@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Wayne Industries</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Dashboard - Wayne Industries</h1>
+            <button id="logout-button">Logout</button>
+        </header>
+
+        <div class="dashboard-content">
+            <!-- Painel de visualização de segurança -->
+            <section class="security-overview">
+                <h2>Security Overview</h2>
+                <div class="chart" id="security-chart">
+                    <!-- Gráficos de dados podem ser carregados aqui -->
+                </div>
+            </section>
+
+            <!-- Gestão de recursos -->
+            <section class="resource-management">
+                <h2>Resource Management</h2>
+                <div class="resource-form">
+                    <input type="text" id="resource-name" placeholder="Resource Name">
+                    <input type="text" id="resource-status" placeholder="Status">
+                    <button id="add-resource-button">Add Resource</button>
+                </div>
+                <ul id="resource-list">
+                    <!-- Lista de recursos aparecerá aqui -->
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <script src="dashboard.js
+    "></script>
+</body>
+</html>
